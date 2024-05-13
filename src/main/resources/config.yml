@@ -1,0 +1,8 @@
+join-message: '&aWelcome back to the server, &c&l%player%&a! This is monkey exhibit. '
+feed-players: true
+foods:
+  - 'Pizza'
+  - 'Grape'
+  - 'Orange'
+
+mutedPlayers:

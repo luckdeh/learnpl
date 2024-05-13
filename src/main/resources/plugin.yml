@@ -1,0 +1,127 @@
+name: learnpl
+version: '${project.version}'
+main: me.luckdeh.learnpl.Learnpl
+api-version: '1.20'
+commands:
+  hat:
+    description: Hat
+    permission: cmi.hat
+  tpo:
+    description: tps you to player
+    permission: cmi.tpo
+  sun:
+    description: Sets the weather to sunny!
+    permission: cmi.sun
+  gui:
+    description: Shows a test gui
+  menu:
+    description: Shows a test gui
+  setmessage:
+    description: changes the join message
+    permission: cmi.joinmessage
+  enderchest:
+    description: Opens your enderchest
+    permission: cmi.ec
+    aliases:
+      - ec
+  invsee:
+    description: Invsee
+    permission: cmi.invsee
+  discord:
+    description: Gives the link to the discord server
+  demoscreen:
+    description: Shows demoscreen
+    permission: cmi.demo
+  rules:
+    description: Shows a list of rules in the server.
+    aliases:
+      - r
+  clearlag:
+    description: Removes all ground items.
+    permission: cmi.clearlag
+    aliases:
+      - cl
+      - lagstop
+      - stoplag
+      - lag
+      - clag
+      - lagclear
+  spawn:
+    description: spawns u at the spawnpoint
+    aliases:
+      - s
+  setspawn:
+    description: set the server spawnpoint
+    permission: cmi.setspawn
+  vanish:
+    description: Does not show you online
+    permission: cmi.vanish
+  fart:
+    description: Fart
+    permission: learn.fart
+  heal:
+    description: Heals u to full health
+    usage: /<command>
+    permission: cmi.heal
+  repeat:
+    description: Repeats stuff back to you
+  gmsp:
+    description: Sets ur gamemode to Spectator
+    permission: cmi.gamemode
+    usage: /<command>
+    aliases:
+      - spectator
+  gma:
+    description: Sets ur gamemode to Adventure
+    permission: cmi.gamemode
+    usage: /<command>
+    aliases:
+      - Adventure
+  gms:
+    description: Sets ur gamemode to Survival
+    permission: cmi.gamemode
+    usage: /<command>
+    aliases:
+      - survival
+  gmc:
+    description: Sets ur gamemode to Creative
+    permission: cmi.gamemode
+    usage: /<command>
+    aliases:
+      - creative
+  pray:
+    description: Did u pray today
+    usage: /<command>
+  fly:
+    description: Makes u fly :o
+    usage: /<command>
+    permission: cmi.fly
+    aliases:
+  crnlm:
+    description:  hamburger
+    aliases:
+      - hamburger
+  die:
+    description: An easy way to kill yourself.:)
+    usage: /<command>
+  god:
+    description: Become a god :o
+    usage: /<command>
+    permission: cmi.god
+    aliases:
+
+  feed:
+    description: Gives full hunger
+    usage: /<command>
+    permission: cmi.feed
+    aliases:
+      - food
+      - hungerfill
+  test:
+    description: this is a test
+    permission: learn.test
+permissions:
+  learn.test:
+    description: Allows to run the /test command :O
+    default: op
+    children:
