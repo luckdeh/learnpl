@@ -5,40 +5,40 @@ api-version: '1.20'
 commands:
   hat:
     description: Hat
-    permission: cmi.hat
+    permission: c.hat
   tpo:
     description: tps you to player
-    permission: cmi.tpo
+    permission: c.tpo
   sun:
     description: Sets the weather to sunny!
-    permission: cmi.sun
+    permission: c.sun
   gui:
     description: Shows a test gui
   menu:
     description: Shows a test gui
   setmessage:
     description: changes the join message
-    permission: cmi.joinmessage
+    permission: c.joinmessage
   enderchest:
     description: Opens your enderchest
-    permission: cmi.ec
+    permission: c.ec
     aliases:
       - ec
   invsee:
     description: Invsee
-    permission: cmi.invsee
+    permission: c.invsee
   discord:
     description: Gives the link to the discord server
   demoscreen:
     description: Shows demoscreen
-    permission: cmi.demo
+    permission: c.demo
   rules:
     description: Shows a list of rules in the server.
     aliases:
       - r
   clearlag:
     description: Removes all ground items.
-    permission: cmi.clearlag
+    permission: c.clearlag
     aliases:
       - cl
       - lagstop
@@ -52,40 +52,40 @@ commands:
       - s
   setspawn:
     description: set the server spawnpoint
-    permission: cmi.setspawn
+    permission: c.setspawn
   vanish:
     description: Does not show you online
-    permission: cmi.vanish
+    permission: c.vanish
   fart:
     description: Fart
     permission: learn.fart
   heal:
     description: Heals u to full health
     usage: /<command>
-    permission: cmi.heal
+    permission: c.heal
   repeat:
     description: Repeats stuff back to you
   gmsp:
     description: Sets ur gamemode to Spectator
-    permission: cmi.gamemode
+    permission: c.gamemode
     usage: /<command>
     aliases:
       - spectator
   gma:
     description: Sets ur gamemode to Adventure
-    permission: cmi.gamemode
+    permission: c.gamemode
     usage: /<command>
     aliases:
       - Adventure
   gms:
     description: Sets ur gamemode to Survival
-    permission: cmi.gamemode
+    permission: c.gamemode
     usage: /<command>
     aliases:
       - survival
   gmc:
     description: Sets ur gamemode to Creative
-    permission: cmi.gamemode
+    permission: c.gamemode
     usage: /<command>
     aliases:
       - creative
@@ -95,7 +95,7 @@ commands:
   fly:
     description: Makes u fly :o
     usage: /<command>
-    permission: cmi.fly
+    permission: c.fly
     aliases:
   crnlm:
     description:  hamburger
@@ -107,13 +107,13 @@ commands:
   god:
     description: Become a god :o
     usage: /<command>
-    permission: cmi.god
+    permission: c.god
     aliases:
 
   feed:
     description: Gives full hunger
     usage: /<command>
-    permission: cmi.feed
+    permission: c.feed
     aliases:
       - food
       - hungerfill
